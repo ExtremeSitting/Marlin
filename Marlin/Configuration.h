@@ -968,8 +968,8 @@
 #define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
-  #define Z_SAFE_HOMING_X_POINT 52    // X point for Z homing when homing all axis (G28).
-  #define Z_SAFE_HOMING_Y_POINT 39    // Y point for Z homing when homing all axis (G28).
+  #define Z_SAFE_HOMING_X_POINT 20    // X point for Z homing when homing all axis (G28).
+  #define Z_SAFE_HOMING_Y_POINT 20    // Y point for Z homing when homing all axis (G28).
 #endif
 
 // Homing speeds (mm/m)
