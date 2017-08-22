@@ -874,7 +874,7 @@
     // Experimental Subdivision of the grid by Catmull-Rom method.
     // Synthesizes intermediate points to produce a more detailed mesh.
     //
-    //#define ABL_BILINEAR_SUBDIVISION
+    #define ABL_BILINEAR_SUBDIVISION
     #if ENABLED(ABL_BILINEAR_SUBDIVISION)
       // Number of subdivisions between probe points
       #define BILINEAR_SUBDIVISIONS 3
@@ -968,7 +968,7 @@
 #define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
-  #define Z_SAFE_HOMING_X_POINT 20    // X point for Z homing when homing all axis (G28).
+  #define Z_SAFE_HOMING_X_POINT 15    // X point for Z homing when homing all axis (G28).
   #define Z_SAFE_HOMING_Y_POINT 20    // Y point for Z homing when homing all axis (G28).
 #endif
 
